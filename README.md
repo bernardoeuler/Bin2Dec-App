@@ -10,4 +10,4 @@ An application that converts binary numbers to decimal numbers.
 ## Bonus feature
 - User can enter a variable number of binary digits
 
-*Time spent: * 3h20min
+**Time spent:** 3h20min
