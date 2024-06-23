@@ -11,3 +11,5 @@ An application that converts binary numbers to decimal numbers.
 - [x] User can enter a variable number of binary digits
 
 **Time spent:** 3h20min
+
+Link of the website: https://bernardoeuler.github.io/binary-to-decimal-converter/
