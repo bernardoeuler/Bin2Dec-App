@@ -15,6 +15,7 @@ body {
 
 .container {
   background-color: #ffffff;
+  margin: 64px;
   padding: 64px;
   border-radius: 16px;
   box-shadow: 0 0 30px #00000033;
@@ -22,8 +23,9 @@ body {
 
 .container h1 {
   color: #202020;
-  font-size: 40px;
+  font-size: clamp(20px, 3vw, 40px);
   margin-bottom: 64px;
+  text-align: center;
 }
 
 .inputs {
@@ -83,4 +85,38 @@ body {
 
 #author a:active {
   color: #1D928B;
+}
+
+/* @media screen and (max-width: 768px) {
+  .container {
+    padding: 64px 24px; 
+  }
+} */
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin: 24px;
+    padding: 32px 24px;
+  }
+
+  .inputs .input-group {
+    width: 100%;
+  }
+
+  .inputs .input-group label {
+    font-size: 12px;
+  }
+
+  .inputs .input-group input {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .inputs img {
+    width: 24px;
+  }
+
+  #author {
+    font-size: 12px;
+  }
 }
